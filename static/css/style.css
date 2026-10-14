@@ -1,0 +1,19 @@
+table{
+    font-family: 'Courier New', Courier, monospace;
+    border-color: collapse;
+    width: 100%;
+}
+td ,th{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even){
+    background-color: #dddddd;
+}
+#box1{
+    background-color: blue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 100px;
+    
+}
