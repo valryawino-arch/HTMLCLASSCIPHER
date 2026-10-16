@@ -1,0 +1,118 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    padding: 20px;
+    background: linear-gradient(#f2ccff,#ff80bf);
+    background-repeat: no-repeat;
+}
+.container{
+    width: 100%;
+    max-width: 420px;
+    padding: 30px;
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 15px 40px #003;
+}
+.logo{
+    display: grid;
+    place-items: center;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto 15px;
+    border-radius: 12px;
+    background:  #ff4d94;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+h1,.subtitle{
+    text-align: center;
+}
+h1{
+    color: #9966ff;
+    margin-top: 8px;
+}
+.subtitle,.login{
+    color:  #ff7733;
+}
+.subtitle{
+    margin-bottom: 20px;
+}
+.input-group{
+    margin-bottom: 17px;
+}
+.input-group label{
+  display: block;
+  margin-bottom: 7px;
+  color: #334155;
+  font-size: 12px;
+  font-weight: bold;
+}
+.input-group input{
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+     border: 1px solid #deb2ef;
+    outline: none;
+    transition: .3s;
+}
+.input-group input:focus{
+    border-color: #4f46e5;
+    box-shadow: 0 0 0 3px #4f46e522;
+}
+.terms{
+    display: flex;
+    gap: 8px;
+    margin: 20px 0;
+    color: #64748b;
+    font-size: 12px;
+}
+button{
+    width: 100%;
+    padding: 13px;
+    border: 0;
+    border-radius: 8px;
+    color: #99004d;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s;
+    background: #ff0080;
+}
+button:hover{
+    background-color: black;
+}
+.login{
+    margin-top: 20px;
+}
+a{
+    color: #ff0080;
+    text-decoration: none;
+    font-weight: bold;
+}
+@media(max-width: 480px){
+    .container{
+        padding: 24px 18px;
+    }
+}
+
+
+.terms{
+    align-items: center;
+}
+
+.terms input{
+    width: 18px;
+    height: 18px;
+    padding: 0;
+    flex-shrink: 0;
+    accent-color: #ff0080;
+    cursor: pointer;
+}
